@@ -2,24 +2,19 @@
 **SDL Project**  
 The “Sales and Repair” system is a mobile application that allows customers to purchase an electronic product over the Internet using their mobile phones. It also provides the facility to repair damaged products in the shops from where the customer purchases that product.
 
-Features:
-1. Customer:
-  1.1 Registration and Login
-  View and edit Profile
-✓ View various shops available in the city
-✓ View different products available in the shops
-✓ View details of shops and products
-✓ Add or remove products to/from cart
-✓ Place an Order
-✓ View the status and details of Order
-✓ View the status and details of the product being repaired
+Customer's Features:
+1. View various shops available in the city
+2. View different products available in the shops
+3. View details of shops and products
+4. Add/Remove products to/from cart
+5. Place an Order
+6. View the status and details of Order
+7. View the status and details of the product being repaired
 
-2) Seller:
-✓ Registration and Login
-✓ View and Edit Profile
-✓ Add, Edit, Delete and View products in the shop
-✓ View Orders and their details
-✓ Change the status of Orders
-✓ Add products to be repaired in the Repair section
-✓ View Products being repaired with their details
-✓ Change the status of products being repaired
+Seller's Features:
+1. Add, Edit, Delete and View products in the shop
+2. View Orders and their details
+3. Change the status of Orders
+4. Add products to be repaired in the Repair section
+5. View Products being repaired with their details
+6. Change the status of products being repaired
