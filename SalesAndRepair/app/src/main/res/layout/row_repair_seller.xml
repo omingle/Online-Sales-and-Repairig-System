@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="5dp">
+
+    <!-- If want, then
+        remove
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true"
+
+        and add
+        android:layout_marginBottom="2dp"
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Id of the Repair-->
+        <TextView
+            android:id="@+id/repairIdTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repair ID : 12345"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"/>
+        <!-- Date when product was placed to be repair -->
+        <TextView
+            android:id="@+id/repairDateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dd/MM/yyyy"
+            android:layout_toStartOf="@id/nextIv"
+            android:textColor="@color/colorGray02"/>
+
+        <!-- Email of the user who placed product to repair -->
+        <TextView
+            android:id="@+id/emailTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Email"
+            android:layout_below="@id/repairIdTv"
+            android:textColor="@color/colorGray02"/>
+
+        <!-- total charges of the repairing product -->
+        <TextView
+            android:id="@+id/repairingChargesTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repairing Charges: ₹500"
+            android:layout_below="@id/emailTv"
+            android:textColor="@color/colorGray02"/>
+
+        <!-- Repair status : in progress, completed, cancelled -->
+        <TextView
+            android:id="@+id/statusTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailTv"
+            android:layout_marginTop="5dp"
+            android:layout_toStartOf="@id/nextIv"
+            android:text="In Progress"
+            android:textColor="@color/colorGreen"/>
+
+        <ImageView
+            android:id="@+id/nextIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_next_gray"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
