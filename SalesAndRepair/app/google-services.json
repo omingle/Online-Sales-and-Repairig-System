@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484713919294",
+    "firebase_url": "https://salesandrepair-4fef2.firebaseio.com",
+    "project_id": "salesandrepair-4fef2",
+    "storage_bucket": "salesandrepair-4fef2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484713919294:android:989f52d9ca4e2d1a85f26f",
+        "android_client_info": {
+          "package_name": "com.sdlproject.salesandrepair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484713919294-kka08knsi7it9668h2of45t8atrd664j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sdlproject.salesandrepair",
+            "certificate_hash": "3fccdd49e3a6e18a4847f4f41cfd349f8a83910e"
+          }
+        },
+        {
+          "client_id": "484713919294-gaoqshh2u2h1geoi1q8vc869m6u2gtoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRNTnxB5aET9mHlbXP55BXxR5wi4XAhrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484713919294-gaoqshh2u2h1geoi1q8vc869m6u2gtoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
